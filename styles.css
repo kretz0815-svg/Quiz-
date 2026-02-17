@@ -780,6 +780,7 @@ body {
     font-size: 14px;
     color: var(--text-secondary);
     font-weight: 600;
+    display: none !important; /* Never show the answer before user responds */
 }
 
 /* Answers */
